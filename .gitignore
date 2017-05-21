@@ -12,6 +12,7 @@ tmp/
 *.swp
 *~.nib
 .svn
+.idea
 local.properties
 .classpath
 .settings/

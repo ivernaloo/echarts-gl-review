@@ -8,6 +8,7 @@
     }
   ],
   "dependencies": {
+    "echarts": "^3.5.4",
     "qtek": "0.3.6",
     "viewport-mercator-project": "^4.0.2",
     "zrender": "3.4.3"
