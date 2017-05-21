@@ -33,16 +33,18 @@
  */
 
 // PENDING Use a single canvas as layer or use image element?
+    // draw webGL on canvas?
 var echartsGl = {
-    version: '1.0.0-alpha.5',
+    version: '1.0.0-alpha.5', // global version
     dependencies: {
-        echarts: '3.5.3',
-        qtek: '0.3.6'
+        echarts: '3.5.3', // echart library
+        qtek: '0.3.6' // about what QTEK is a WebGL graphic library.
+                        // encapsulate the logic about handling the qtek
     }
 };
 var echarts = require('echarts/lib/echarts');
 var qtekVersion = require('qtek/lib/version');
-var LayerGL = require('./core/LayerGL');
+var LayerGL = require('./core/LayerGL'); // purpose ?
 
 // Version checking
 var deps = echartsGl.dependencies;

@@ -9,15 +9,15 @@
  *    (renderer) (renderer)
  *      /     \
  *  ViewGL   ViewGL
- *
+ * same there are nothing relation between LayerGL and ViewGL
  * @module echarts-gl/core/LayerGL
  * @author Yi Shen(http://github.com/pissang)
  */
 
 var echarts = require('echarts/lib/echarts');
-var Renderer = require('qtek/lib/Renderer');
-var RayPicking = require('qtek/lib/picking/RayPicking');
-var Texture = require('qtek/lib/Texture');
+var Renderer = require('qtek/lib/Renderer'); // render logic
+var RayPicking = require('qtek/lib/picking/RayPicking'); // ray logic
+var Texture = require('qtek/lib/Texture');  // texture
 
 // PENDING, qtek notifier is same with zrender Eventful
 var notifier = require('qtek/lib/core/mixin/notifier');
